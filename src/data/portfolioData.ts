@@ -284,7 +284,7 @@ export const UPWORK_PROJECT_TIERS: UpworkProjectTier[] = [
   {
     id: 'starter',
     name: 'Starter: Quick Short Edit',
-    price: 10,
+    price: 15,
     description: 'Simple cut and basic subtitles, up to 30s. Perfect for turning raw talking takes into clean social clips.',
     deliveryTime: '2 Days Delivery',
     revisions: 1,
@@ -339,7 +339,7 @@ export const UPWORK_FRESHER_PROMISES = [
   },
   {
     title: '$15.00/hr or Fixed Project Catalog',
-    description: 'Agency-level DaVinci Resolve editing starting at $15.00/hr or fixed project tiers ($10 Starter, $25 Standard, $50 Advanced).',
+    description: 'Agency-level DaVinci Resolve editing starting at $15.00/hr or fixed project tiers ($15 Starter, $25 Standard, $50 Advanced).',
   },
   {
     title: 'Free 30-Second Sample Test Cut',

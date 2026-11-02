@@ -48,7 +48,7 @@ export default function App() {
           if (el) el.scrollIntoView({ behavior: 'smooth' });
         }} />
 
-        {/* Upwork Project Catalog: $10 Starter, $25 Standard, $50 Advanced */}
+        {/* Upwork Project Catalog: $15 Starter, $25 Standard, $50 Advanced */}
         <UpworkCatalog />
 
         {/* Interactive Project Scope & Pricing Estimator */}

@@ -104,7 +104,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProject }) => {
                 onClick={scrollToCatalog}
                 className="inline-flex items-center gap-2 px-5 py-3.5 text-sm font-medium text-zinc-200 bg-zinc-900/90 border border-zinc-700/80 hover:border-zinc-500 rounded-xl hover:text-white transition-all cursor-pointer"
               >
-                <span>View Upwork Project Tiers ($10–$50)</span>
+                <span>View Upwork Project Tiers ($15–$50)</span>
                 <ArrowRight className="w-4 h-4 text-amber-400" />
               </button>
 

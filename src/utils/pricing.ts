@@ -12,7 +12,7 @@ export interface EstimateResult {
 export function calculateEstimate(options: PricingOptions): EstimateResult {
   // Base rates by project type
   const baseRates: Record<PricingOptions['projectType'], number> = {
-    reels: 10,           // Starter short tier baseline on Upwork
+    reels: 15,           // Starter short tier baseline on Upwork
     youtube: 60,         // YouTube longform cut
     podcast: 50,         // Multicam podcast edit
     commercial: 95,      // Promo with Fusion motion graphics

@@ -15,10 +15,10 @@ test('calculateEstimate computes standard short-form base rate accurately', () =
   };
 
   const result = calculateEstimate(options);
-  assert.equal(result.basePrice, 10);
+  assert.equal(result.basePrice, 15);
   assert.equal(result.addonsTotal, 0);
   assert.equal(result.turnaroundMultiplier, 1.0);
-  assert.equal(result.finalPrice, 10);
+  assert.equal(result.finalPrice, 15);
   assert.ok(result.estimatedHours >= 2);
 });
 

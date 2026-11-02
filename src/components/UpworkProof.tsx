@@ -65,7 +65,7 @@ export const UpworkProof: React.FC<UpworkProofProps> = ({ onScrollToContact }) =
               onClick={onScrollToContact}
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-medium text-zinc-200 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700/80 rounded-xl transition-all cursor-pointer"
             >
-              <span>Browse Catalog Tiers ($10–$50)</span>
+              <span>Browse Catalog Tiers ($15–$50)</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>
